@@ -544,16 +544,16 @@ function initLetterScreen() {
     const letterContent = document.getElementById('letter-content');
     const nextButton = document.getElementById('next-letter');
 
-    const letterText = `My Dearest Madam Ji,
+    const letterText = `Meri Priya Madam Ji,
 
-As we step into this new year, I want you to know how incredibly grateful I am to have you in my life. Every moment with you feels like a beautiful dream, and I never want to wake up.
+Jaise hi hum is naye varsh mein pravesh kar rahe hain, main aapko yeh batana chahta hoon ki aapke mere jeevan mein hone ke liye main dil se kitna aabhari hoon. Aapke saath bitaaya har pal ek sundar swapn jaisa lagta hai, aur main kabhi bhi us swapn se jaagna nahi chahta. 
 
-Your smile lights up my world, your laughter is my favorite melody, and your love is the greatest gift I've ever received. These past two years have been the most beautiful journey of my life, and I can't wait to create countless more memories with you.
+Aapki muskaan meri duniya ko ujale se bhar deti hai, aapki hansi meri sabse priya dhun hai, aur aapka prem mere jeevan ka sabse anmol uphaar hai. Pichhle do varsh mere jeevan ki sabse sundar yatra rahe hain, aur main utsukta se pratiksha kar raha hoon ki hum saath milkar anek aur yaadein banaayein. 
 
-Thank you for being you, for loving me, and for making every day special. Here's to another year of adventures, laughter, and endless love together.
+Sirf aap hone ke liye, mujhe prem dene ke liye, aur har din ko itna vishesh banaane ke liye main aapka hriday se dhanyavaad karta hoon. Aaiye, ek aur varsh ka swaagat karein — romaanch, hansi aur ek-doosre ke saath anant prem ke naam.
 
-Forever yours,
-With all my love ❤️`;
+Sadaiv aapka,
+For our endless love ❤️`;
 
     if (letterContent) {
         let index = 0;

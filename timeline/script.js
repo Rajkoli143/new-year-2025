@@ -1,63 +1,147 @@
 const milestones = [
     {
         id: 1,
-        x: 400,
-        y: 300,
-        title: "The Beginning",
-        date: "JAN 1, 2024",
-        day: "Monday",
-        description: "Where it all started. The first step into the unknown. A day full of hope and excitement for the journey ahead.",
-        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1000"
+        x: 300,
+        y: 400,
+        title: "The First Spark",
+        date: "Month 1",
+        description: "The moment our worlds collided. A single look that changed everything forever.",
+        image: "../image/month1.jpg"
     },
     {
         id: 2,
         x: 800,
-        y: 600,
-        title: "Coastal Escape",
-        date: "MAR 12, 2024",
-        day: "Tuesday",
-        description: "Finding peace by the ocean. The sound of waves and the salty breeze helped clear my mind.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000"
+        y: 300,
+        title: "Whispers in the Wind",
+        date: "Month 2",
+        description: "Late night conversations and the sweet discovery of everything we share.",
+        image: "../image/month2.jpg"
     },
     {
         id: 3,
-        x: 1200,
-        y: 400,
-        title: "Mountain Heights",
-        date: "MAY 20, 2024",
-        day: "Monday",
-        description: "Reaching the summit after a long climb. The view from the top made every drop of sweat worth it.",
-        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000"
+        x: 1300,
+        y: 600,
+        title: "Colors of Us",
+        date: "Month 3",
+        description: "Life started feeling more vibrant, painted with the beautiful colors of your love.",
+        image: "../image/month3.jpg"
     },
     {
         id: 4,
-        x: 1600,
-        y: 800,
-        title: "Urban Rhythms",
-        date: "JUL 05, 2024",
-        day: "Friday",
-        description: "Lost in the neon lights of the city. A night of music, laughter, and unexpected friendships.",
-        image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1000"
+        x: 1800,
+        y: 400,
+        title: "Midnight Magic",
+        date: "Month 4",
+        description: "Under the silver moon, every moment felt like a scene from a beautiful movie.",
+        image: "../image/month4.jpg"
     },
     {
         id: 5,
-        x: 2100,
-        y: 500,
-        title: "Golden Hour",
-        date: "SEP 18, 2024",
-        day: "Wednesday",
-        description: "Sitting in a quiet park as the sun set. Everything was painted in gold for a few magical moments.",
-        image: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&q=80&w=1000"
+        x: 2300,
+        y: 700,
+        title: "Eternal Bond",
+        date: "Month 5",
+        description: "Finding a home in your heart. A connection that keeps growing stronger every day.",
+        image: "../image/month5.jpg"
     },
     {
         id: 6,
-        x: 2600,
-        y: 900,
-        title: "Winter's Embrace",
-        date: "DEC 15, 2024",
-        day: "Sunday",
-        description: "The first snow of the year. The world turned silent and white, signaling the end of one chapter and the start of another.",
-        image: "https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&q=80&w=1000"
+        x: 2800,
+        y: 450,
+        title: "Heartbeat Symphony",
+        date: "Month 6",
+        description: "Our hearts beating in perfect rhythm. The sweetest melody I've ever known.",
+        image: "../image/month6.jpg"
+    },
+    {
+        id: 7,
+        x: 2900,
+        y: 1000,
+        title: "Summer Glow",
+        date: "Month 7",
+        description: "Sunshine and laughter. Every day with you feels like a warm summer afternoon.",
+        image: "../image/month7.jpg"
+    },
+    {
+        id: 8,
+        x: 2400,
+        y: 1300,
+        title: "Golden Memories",
+        date: "Month 8",
+        description: "Cherishing every second. These are the moments I'll keep in my heart forever.",
+        image: "../image/month8.jpg"
+    },
+    {
+        id: 9,
+        x: 1900,
+        y: 1000,
+        title: "Starlight Dreams",
+        date: "Month 9",
+        description: "Dreaming of a future together, guided by the light of our love.",
+        image: "../image/month9.jpg"
+    },
+    {
+        id: 10,
+        x: 1400,
+        y: 1300,
+        title: "Autumn Leaves",
+        date: "Month 10",
+        description: "As the world changes colors, my love for you only deepens and grows.",
+        image: "../image/month10.jpg"
+    },
+    {
+        id: 11,
+        x: 900,
+        y: 1100,
+        title: "Cozy Nights",
+        date: "Month 11",
+        description: "Finding warmth in your embrace on the coldest of nights.",
+        image: "../image/month11.jpg"
+    },
+    {
+        id: 12,
+        x: 400,
+        y: 1400,
+        title: "Winter Wonderland",
+        date: "Month 12",
+        description: "Magic in the air and love in our hearts. The perfect end to a beautiful year.",
+        image: "../image/month12.jpg"
+    },
+    {
+        id: 13,
+        x: 800,
+        y: 1800,
+        title: "A New Year, Same Love",
+        date: "Month 13",
+        description: "Stepping into a new chapter, hand in hand with my favorite person.",
+        image: "../image/month13.jpg"
+    },
+    {
+        id: 14,
+        x: 1400,
+        y: 1600,
+        title: "Eternal Promise",
+        date: "Month 14",
+        description: "A promise to love you more with every passing second.",
+        image: "../image/month14.jpg"
+    },
+    {
+        id: 15,
+        x: 2000,
+        y: 1900,
+        title: "Beyond the Horizon",
+        date: "Month 15",
+        description: "Exploring the unknown, knowing that as long as I'm with you, I'm home.",
+        image: "../image/month15.jpg"
+    },
+    {
+        id: 16,
+        x: 2700,
+        y: 1700,
+        title: "Our Infinite Journey",
+        date: "Month 16",
+        description: "Every end is just a new beginning. I love you to the moon and back.",
+        image: "../image/month16.jpg"
     }
 ];
 
@@ -253,7 +337,7 @@ class MemoryMap {
 
         img.src = milestone.image;
         title.innerText = milestone.title;
-        date.innerText = `${milestone.date} • ${milestone.day}`;
+        date.innerText = milestone.date;
         desc.innerText = milestone.description;
 
         overlay.classList.remove('hidden');
