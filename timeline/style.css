@@ -397,3 +397,50 @@ body {
         transform: translateY(-20px) scale(1.1);
     }
 }
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .controls {
+        top: 20px;
+        left: 20px;
+    }
+
+    .controls h1 {
+        font-size: 2rem;
+    }
+
+    #memory-card {
+        max-width: 85%;
+        padding: 8px;
+        padding-bottom: 30px;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .controls h1 {
+        font-size: 1.5rem;
+    }
+
+    .controls p {
+        font-size: 0.7rem;
+    }
+
+    .next-button {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    .pin-label {
+        width: 80px;
+    }
+
+    .pin-tag {
+        font-size: 0.9rem;
+    }
+}
