@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year Madam Ji ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Section 1: Loading Screen -->
+    <section id="loading-screen" class="section active">
+        <div class="loading-container">
+            <div class="loading-text" id="loading-text">Loading memories...</div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="progress-percentage" id="progress-percentage">0%</div>
+            <button class="start-button" id="start-button" style="display: none;">Start Journey</button>
+        </div>
+    </section>
+
+    <!-- Section 2: Heart Interaction Screen -->
+    <section id="heart-screen" class="section">
+        <div class="heart-container">
+            <h2 class="section-title">Click the heart to start the year with me</h2>
+            <div class="heart" id="interactive-heart">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                        fill="currentColor" />
+                </svg>
+            </div>
+            <button class="next-button" id="next-heart" style="display: none;">Next</button>
+        </div>
+    </section>
+
+    <!-- Section 3: Mini Love Quiz Screen -->
+    <section id="quiz-screen" class="section">
+        <div class="quiz-container">
+            <h2 class="section-title">A Little Quiz for You</h2>
+            <div class="quiz-question">
+                <p>Who is the most beautiful person in the world?</p>
+            </div>
+            <div class="quiz-options">
+                <button class="quiz-option" data-answer="wrong">Someone else</button>
+                <button class="quiz-option" data-answer="correct">Madam Ji ❤️</button>
+                <button class="quiz-option" data-answer="wrong">Not sure</button>
+                <button class="quiz-option" data-answer="wrong">Maybe me?</button>
+            </div>
+            <div class="quiz-feedback" id="quiz-feedback"></div>
+            <button class="next-button" id="next-quiz" style="display: none;">Next</button>
+        </div>
+    </section>
+
+    <!-- Section 5: Letter Screen -->
+    <section id="letter-screen" class="section">
+        <div class="letter-container">
+            <div class="letter-card" id="letter-card">
+                <div class="letter-content" id="letter-content"></div>
+            </div>
+            <button class="next-button" id="next-letter" style="display: none;">One last thing…</button>
+        </div>
+    </section>
+
+    <!-- Section 6: Fireworks Screen -->
+    <section id="fireworks-screen" class="section">
+        <div class="fireworks-container">
+            <canvas id="fireworks-canvas"></canvas>
+            <div class="fireworks-content">
+                <button class="fireworks-button" id="fireworks-trigger">Ready for the New Year?</button>
+                <h1 class="fireworks-text" id="fireworks-text" style="display: none;">Happy New Year Madam Ji ❤️</h1>
+            </div>
+            <button class="next-button" id="next-fireworks" style="display: none;">Next</button>
+        </div>
+    </section>
+
+    <!-- Section 7: Final Screen -->
+    <section id="final-screen" class="section">
+        <div class="final-container">
+            <div class="heart-animation" id="final-heart">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                        fill="currentColor" />
+                </svg>
+            </div>
+            <h2 class="final-message">Thank you for being my everything</h2>
+            <p class="final-submessage">Here's to another year of love, laughter, and beautiful moments together</p>
+            <p class="final-love">I love you, Madam Ji ❤️</p>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

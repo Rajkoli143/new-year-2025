@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey of Memories | Interactive Timeline</title>
+    <meta name="description" content="An interactive, free-pan journey map of cherished memories.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div id="viewport">
+            <div id="map-container">
+                <canvas id="noise-overlay"></canvas>
+                <div id="map">
+                    <svg id="lines-svg" preserveAspectRatio="none"></svg>
+                    <div id="pins-layer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Controls -->
+        <div class="controls">
+            <h1>Memory Odyssey</h1>
+            <p>Drag to explore • Click to remember</p>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal-overlay" class="hidden">
+            <div id="memory-card">
+                <button id="close-modal">&times;</button>
+                <div class="image-container">
+                    <img id="modal-image" src="" alt="Memory">
+                </div>
+                <div class="content">
+                    <h2 id="modal-title">Summer in Paris</h2>
+                    <p id="modal-date" class="date-label">June 15, 2023</p>
+                    <p id="modal-description">A beautiful afternoon spent wandering through the streets of Montmartre.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="next-button" id="next-page" style="display: none;">Next</button>
+
+        <!-- Loading Screen -->
+        <div id="loader">
+            <div class="loader-content">
+                <span class="heart-icon">❦</span>
+                <p>Gathering memories...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
